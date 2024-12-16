@@ -60,6 +60,12 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Colors.red,
               width: 200,
               height: 200,
+              child: Padding(
+                padding: const EdgeInsets.all(20),
+                child: Container(
+                  color: Colors.green,
+                ),
+              ),
             ),
           ],
         ),
